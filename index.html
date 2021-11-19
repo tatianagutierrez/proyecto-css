@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6d24bdaac8.js" crossorigin="anonymous"></script>
     <title>Beer Society</title>
 </head>
@@ -25,11 +26,21 @@
 
     <!--BARRA DE NAVEGACION-->
     <nav>
-        <a href="#">CERVEZA</a>
-        <a href="#">ACCESORIOS</a>
-        <a href="#">PACKS</a>
-        <a href="#">OTRAS BEBIDAS</a>
-        <a href="#">EVENTOS</a>
+        <a href="#">
+            <p>CERVEZA</p>
+        </a>
+        <a href="#">
+            <p>ACCESORIOS</p>    
+        </a>
+        <a href="#">
+           <p>PACKS</p> 
+        </a>
+        <a href="#">
+            <p>OTRAS BEBIDAS</p>
+        </a>
+        <a href="#">
+            <p>EVENTOS</p>
+        </a>
     </nav>
 
     <!--MAIN-->
@@ -39,37 +50,37 @@
             <h2 class="item-marca-title">MARCAS DESTACADAS</h2>
             <div class="item-marca tarjeta-marca"> 
                 <img src="img/logos/corona-logo.png" alt="logo de cerveza corona" class="img-marcas">
-                <p>Cerveza Corona</p>
+                <p class="nombre-marca">Cerveza Corona</p>
             </div>
 
             <div class="item-marca tarjeta-marca"> 
                 <img src="img/logos/patagonia-logo.png" alt="logo de cerveza patagonia" class="img-marcas">
-                <p>Cerveza Patagonia</p>
+                <p class="nombre-marca">Cerveza Patagonia</p>
             </div>
 
             <div class="item-marca tarjeta-marca"> 
                 <img src="img/logos/stella-artois-logo.png" alt="logo de cerveza stella artois" class="img-marcas">
-                <p>Cerveza Stella Artois</p>
+                <p class="nombre-marca">Cerveza Stella Artois</p>
             </div>
 
             <div class="item-marca tarjeta-marca"> 
                 <img src="img/logos/temple-logo.png" alt="logo de cerveza temple" class="img-marcas">
-                <p>Cerveza Temple</p>
+                <p class="nombre-marca">Cerveza Temple</p>
             </div>
 
             <div class="item-marca tarjeta-marca"> 
                 <img src="img/logos/heineken-logo.png" alt="logo de Cerveza Heineken" class="img-marcas">
-                <p>Cerveza Heineken</p>
+                <p class="nombre-marca">Cerveza Heineken</p>
             </div>
 
             <div class="item-marca tarjeta-marca"> 
                 <img src="img/logos/imperial-logo.png" alt="logo de Cerveza Imperial" class="img-marcas">
-                <p>Cerveza Imperial</p>
+                <p class="nombre-marca">Cerveza Imperial</p>
             </div>
         </aside>
 
         <!--OFERTAS-->
-        <div class="cont-ofertas">
+        <div>
             <div class="item-ofertas-title"> 
                 <h2>LAS MEJORES OFERTAS</h2>
             </div>
@@ -132,7 +143,7 @@
                 </div>
             </div>
 
-            <img src="img/publicidad/publicidad.png" alt="imagen publicitaria" class="publicidad-horizontal">
+            <img src="img/publicidad/publicidad1.png" alt="imagen publicitaria" class="publicidad-1">
         </div> 
 
         <!--BARRA LATERAL MAS VENDIDOS-->
@@ -141,39 +152,41 @@
                 <h2>MAS VENDIDOS</h2>
             </div>
 
-            <!--Item 1-->
-            <div class="tarjeta-lateral tarjeta-produto"> 
-                <img src="img/productos/absolut-vodka.png" alt="Producto: vodka absolut" class="img-producto-lateral">
-                <div>
-                    <p>$1.700</p>
-                    <p>Absolut Vodka Regular</p>
+            <div class="cont-item-mas-vendidos">
+                <!--Item 1-->
+                <div class="tarjeta-lateral tarjeta-produto"> 
+                    <img src="img/productos/absolut-vodka.png" alt="Producto: vodka absolut" class="img-producto-lateral">
+                    <div>
+                        <p>$1.700</p>
+                        <p>Absolut Vodka Regular</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
 
-            <!--Item 2-->
-            <div class="tarjeta-lateral tarjeta-produto">
-                <img src="img/productos/vino-dante-robino.png" alt="Producto: vino dante robino" class="img-producto-lateral">
-                <div>
-                    <p>$1.258</p>
-                    <p>Vino Dante Robino Reserva Malbec</p>
+                <!--Item 2-->
+                <div class="tarjeta-lateral tarjeta-produto">
+                    <img src="img/productos/vino-dante-robino.png" alt="Producto: vino dante robino" class="img-producto-lateral">
+                    <div>
+                        <p>$1.258</p>
+                        <p>Vino Dante Robino Reserva Malbec</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
 
-            <!--Item 3-->
-            <div class="tarjeta-lateral tarjeta-produto"> 
-                <img src="img/productos/kit-jenga-brahma.png" alt="Producto: kit jenga brahma" class="img-producto-lateral">
-                <div>
-                    <p>$2.210</p>
-                    <p>Kit Jenga Brahma</p>
-                </div>
-                <div>
-                    <button>Comprar</button>
+                <!--Item 3-->
+                <div class="tarjeta-lateral tarjeta-produto"> 
+                    <img src="img/productos/kit-jenga-brahma.png" alt="Producto: kit jenga brahma" class="img-producto-lateral">
+                    <div>
+                        <p>$2.210</p>
+                        <p>Kit Jenga Brahma</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
             </div>
         </aside>
@@ -190,7 +203,7 @@
 
             <div class="cont-productos-secciones">
                 <!--ITEM 1-->
-                <div class="item-novedades"> 
+                <div class="item-secciones tarjeta-produto"> 
                     <img src="img/productos/cerveza-quilmes-doble-malta.png" alt="Producto: cerveza quilmes doble malta" class="img-producto">
                     <div>
                         <p>$106</p>
@@ -202,7 +215,7 @@
                 </div>
 
                 <!--ITEM 2-->
-                <div class="item-novedades"> 
+                <div class="item-secciones tarjeta-produto"> 
                     <img src="img/productos/whisky-whyte.png" alt="Producto: whisky whyte" class="img-producto">
                     <div>
                         <p>$4.290</p>
@@ -214,7 +227,7 @@
                 </div>
 
                 <!--ITEM 3-->
-                <div class="item-novedades"> 
+                <div class="item-secciones tarjeta-produto"> 
                     <img src="img/productos/mikes_lata.png" alt="Producto: Mike's Limonada" class="img-producto">
                     <div>
                         <p>$130</p>
@@ -226,7 +239,7 @@
                 </div>
 
                 <!--ITEM 4-->
-                <div class="item-novedades"> 
+                <div class="item-secciones tarjeta-produto"> 
                     <img src="img/productos/cerveza-darwin-pacifica.png" alt="Producto: cerveza darwin pacifica" class="img-producto">
                     <div>
                         <p>$280</p>
@@ -248,7 +261,7 @@
             <div class="cont-productos-secciones">
 
                 <!--ITEM 1-->
-                <div class=”item-cervezas”> 
+                <div class="item-secciones tarjeta-produto"> 
                     <img src="img/productos/cerveza-andes-ipa-roja.png" alt="Producto: Cerveza Temple Demon Honey" class="img-producto">
                     <div>
                         <p>$156</p>
@@ -260,7 +273,7 @@
                 </div>
 
                 <!--ITEM 2-->
-                <div class=”item-cervezas”> 
+                <div class="item-secciones tarjeta-produto"> 
                     <img src="img/productos/cerveza-temple-demon.png" alt="Producto: Cerveza Temple Demon Honey" class="img-producto">
                     <div>
                         <p>$300</p>
@@ -272,7 +285,7 @@
                 </div>
 
                 <!--ITEM 3-->
-                <div class=”item-cervezas”> 
+                <div class="tarjeta-produto"> 
                     <img src="img/productos/cerveza-bierhaus.png" alt="Producto: Cerveza BierHaus" class="img-producto">
                     <div>
                         <p>$320</p>
@@ -284,7 +297,7 @@
                 </div>
 
                 <!--ITEM 4-->
-                <div class=”item-cervezas”> 
+                <div class="item-secciones tarjeta-produto"> 
                     <img src="img/productos/cerveza-ocaso.png" alt="Producto: Cerveza Ocaso" class="img-producto">
                     <div>
                         <p>$265</p>
@@ -298,14 +311,14 @@
         </section>
 
         <!--ACCESORIOS-->
-        <section class="cont-acesorios">
-            <div class="item-acesorios-title"> 
+        <section class="cont-accesorios">
+            <div class="item-accesorios-title"> 
                 <h2>ACCESORIOS</h2>
             </div>
 
             <div class="cont-productos-secciones">
             <!--ITEM 1-->
-            <div class=”item-accesorios”> 
+            <div class="item-secciones tarjeta-produto"> 
                 <img src="img/productos/frapera-corona.png" alt="Producto: frapera corona" class="img-producto">
                 <div>
                     <p>$2.240</p>
@@ -317,7 +330,7 @@
             </div>
 
             <!--ITEM 2-->
-            <div class=”item-accesorios”> 
+            <div class="item-secciones tarjeta-produto"> 
                 <img src="img/productos/kit-jenga-brahma.png" alt="Producto: kit jenga brahma" class="img-producto">
                 <div>
                     <p>$2.210</p>
@@ -329,7 +342,7 @@
             </div>
 
             <!--ITEM 3-->
-            <div class=”item-accesorios”> 
+            <div class="item-secciones tarjeta-produto"> 
                 <img src="img/productos/pack-bar-quilmes.png" alt="Producto: pack bar quilmes" class="img-producto">
                 <div>
                     <p>$2.800</p>
@@ -341,7 +354,7 @@
             </div>
 
             <!--ITEM 4-->
-            <div class=”item-accesorios”> 
+            <div class="item-secciones tarjeta-produto"> 
                 <img src="img/productos/cerveza-bud-messi-vaso.png" alt="Producto: cerveza bud messi vaso" class="img-producto">
                 <div>
                     <p>$1.714</p>
@@ -355,45 +368,71 @@
         </section>
     </div>  
     
-    <!--PUBLICIDAD-->
-    <div class="cont-publicidad">
-        banner
-    </div>
 
     <!--FOOTER-->
-    <footer class="cont-footer">    <!--Podria tener una imagen de fondo-->
+    <footer>
+        <div class="columnas-footer">
+            <!--LOGO-->
+            <div>
+                <img src="img/logos/logo-con-nombre.png" alt="logo de beer society" class="logo-footer">
+            </div>
 
-        <!--LOGO-->
-        <img src="img/logos/logo-con-nombre.png" alt="logo de beer society" >
-
-        <div class="cont-info-footer">
             <!--CONTACTO-->
-            <div class="cont-contacto">
-                <h2>Contacto</h2>
-                <div>
-                    <i class="fas fa-phone-alt"></i>
-                    <p>+54 9 291 123-4567</p>
-                </div>
-                <div>
-                    <i class="fas fa-paper-plane"></i>
-                    <p>contacto@beersociety.com</p>
-                </div>
-                <div>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Alsina Centro, B8000 Bahía Blanca, Provincia de Buenos Aires</p>
-                </div>
+            <div class="cont-info-footer">
+                <h2>CONTACTO</h2>
+                <a href="tel:+5492911234567">
+                    <div class="item-box-text">
+                        <div class="icon-box-text">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <p>+54 9 291 123-4567</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="contacto@beersociety.com">
+                    <div class="item-box-text">
+                        <div class="icon-box-text">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <div>
+                            <p>contacto@beersociety.com</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://goo.gl/maps/amyLWoueFecMJrAJ6">
+                    <div class="item-box-text">
+                        <div class="icon-box-text">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <p>Alsina Centro, B8000 Bahía Blanca, Provincia de Buenos Aires</p>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <!--REDES SOCIALES-->
             <div class="cont-redes">
-                <h2>Seguinos</h2>
-                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square iconos"></i></a>  
-                <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram iconos"></i></a>
-                <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square iconos"></i></a>
+                <h2>SEGUINOS</h2>
+                <div class="cont-item-redes">
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square iconos"></i></a>  
+                    <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram iconos"></i></a>
+                    <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square iconos"></i></a>
+                </div>
             </div>
         </div>
+
+        <div>
+            <img src="img/footer-background.jpg" alt="" class="img-footer">
+        </div>
+
         <!--DESARROLLADORES-->
-        <div>Tatiana Gutiérrez © Todos los derechos reservados</div>
+        <div>
+            <p class="nombre-desarrollador">Tatiana Gutiérrez © Todos los derechos reservados</p> 
+        </div>
     </footer>
     
 </body>
