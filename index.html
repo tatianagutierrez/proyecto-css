@@ -11,138 +11,157 @@
 <body>
     
     <!--HEADER-->
-    <header class="cont-header">
-        <img src="img/logos/logo.png" alt="logo de la empresa: Beer Society" class="logo">
-        <h1>Beer Society</h1>
-        <div>
-            <i class="fas fa-search"></i>
-            <i class="fas fa-user-circle"></i>
-            <i class="fas fa-shopping-cart"></i>
+    <header>
+        <div class="cont-header">
+            <img src="img/logos/logo.png" alt="logo de la empresa: Beer Society" class="logo">
+            <h1>Beer Society</h1>
+            <div>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user-circle"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
         </div>
     </header>
 
     <!--BARRA DE NAVEGACION-->
-    <nav class="cont-nav">
-        <ul>
-            <li><a>CERVEZA</a></li>
-            <li><a>ACCESORIOS</a></li>
-            <li><a>PACKS</a></li>
-            <li><a>OTRAS BEBIDAS</a></li>
-            <li><a>EVENTOS</a></li>
-        </ul>
+    <nav>
+        <a href="#">CERVEZA</a>
+        <a href="#">ACCESORIOS</a>
+        <a href="#">PACKS</a>
+        <a href="#">OTRAS BEBIDAS</a>
+        <a href="#">EVENTOS</a>
     </nav>
 
-    <!--BARRA LATERAL MARCAS DESTACADAS-->
-    <aside class="cont-marcas">
-        <div class=”item-marca”> 
-            <img src="img/logos/corona-logo.png" alt="logo de cerveza corona">
-            <p>Cerveza Corona</p>
-        </div>
-
-        <div class=”item-marca”> 
-            <img src="img/logos/patagonia-logo.png" alt="logo de cerveza patagonia">
-            <p>Cerveza Patagonia</p>
-        </div>
-
-        <div class=”item-marca”> 
-            <img src="img/logos/stella-artois-logo.png" alt="logo de cerveza stella artois">
-            <p>Cerveza Stella Artois</p>
-        </div>
-    </aside>
-
     <!--MAIN-->
-    <main class=”cont-main”>
+    <main class="cont-main">
+        <!--BARRA LATERAL MARCAS DESTACADAS-->
+        <aside class="cont-marcas">
+            <h2 class="item-marca-title">MARCAS DESTACADAS</h2>
+            <div class="item-marca"> 
+                <img src="img/logos/corona-logo.png" alt="logo de cerveza corona" class="img-marcas">
+                <p>Cerveza Corona</p>
+            </div>
+
+            <div class="item-marca"> 
+                <img src="img/logos/patagonia-logo.png" alt="logo de cerveza patagonia" class="img-marcas">
+                <p>Cerveza Patagonia</p>
+            </div>
+
+            <div class="item-marca"> 
+                <img src="img/logos/stella-artois-logo.png" alt="logo de cerveza stella artois" class="img-marcas">
+                <p>Cerveza Stella Artois</p>
+            </div>
+        </aside>
+
         <!--OFERTAS-->
-        <div class="item-main-title"> 
-            <h2>Titulo de main</h2>
-        </div>
+        <div class="cont-ofertas">
+            <div class="item-ofertas-title"> 
+                <h2>LAS MEJORES OFERTAS</h2>
+            </div>
 
-        <!--ITEM 1-->
-        <div class=”item-main”>
-            <div>30% OFF</div>
-            <img src="img/productos/sidra-patagonia.png" alt="Producto: Sidra patagonia">
-            <div>
-                <p>$6.264</p>
-                <p>$4.384</p>
-                <p>Pack 24 Sidras Patagonia Isidra Lata 473ml</p>
-            </div>
-            <div>
-                <button>Comprar</button>
-            </div>
-        </div>
+            <div class="cont-productos-centro">
+                <!--ITEM 1-->
+                <div class="item-ofertas">
+                    <img src="img/productos/sidra-patagonia.png" alt="Producto: Sidra patagonia" class="img-producto">
+                    <div class="info-producto">
+                        <p class="precio-anterior">$6.264</p>
+                        <p class="descuento">30% OFF</p>
+                        <p class="precio-actual">$4.384</p>
+                        <p class="nombre-producto">Pack 24 Sidras Patagonia Isidra Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
+                </div>
 
-        <!--ITEM 2-->
-        <div class=”item-main”>
-            <div>40% OFF</div>
-            <img src="img/productos/cerveza-temple.png" alt="Producto: Cerveza temple">
-            <div>
-                <p>$5.112</p>
-                <p>$3.067</p>
-                <p>Pack 24 Cervezas Temple Wolf IPA Lata 473ml</p>
-            </div>
-            <div>
-                <button>Comprar</button>
-            </div>
-        </div>
+                <!--ITEM 2-->
+                <div class="item-ofertas">
+                    <img src="img/productos/cerveza-temple.png" alt="Producto: Cerveza temple" class="img-producto">
+                    <div class="info-producto">
+                        <p class="precio-anterior">$5.112</p>
+                        <p class="descuento">40% OFF</p>
+                        <p class="precio-actual">$3.067</p>
+                        <p class="nombre-producto">Pack 24 Cervezas Temple Wolf IPA Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
+                </div>
 
-        <!--ITEM 3-->
-        <div class=”item-main”> 
-            <div class=”item-main”>
-            <div>40% OFF</div>
-            <img src="img/productos/cerveza-stella-artois.png" alt="Producto: Cerveza stella artois">
-            <div>
-                <p>$8.400</p>
-                <p>$5.040</p>
-                <p>Pack 48 Cervezas Stella Artois Noire Lata 473ml</p>
+                <!--ITEM 3-->
+                <div class=”item-ofertas”>
+                    <img src="img/productos/cerveza-stella-artois.png" alt="Producto: Cerveza stella artois"class="img-producto">
+                    <div class="info-producto">
+                        <p class="precio-anterior">$8.400</p>
+                        <p class="descuento">40% OFF</p>
+                        <p class="precio-actual">$5.040</p>
+                        <p class="nombre-producto">Pack 48 Cervezas Stella Artois Noire Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <!--ITEM 3-->
+                <div class=”item-ofertas”>
+                    <img src="img/productos/cerveza-stella-artois.png" alt="Producto: Cerveza stella artois"class="img-producto">
+                    <div class="info-producto">
+                        <p class="precio-anterior">$8.400</p>
+                        <p class="descuento">40% OFF</p>
+                        <p class="precio-actual">$5.040</p>
+                        <p class="nombre-producto">Pack 48 Cervezas Stella Artois Noire Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <button>Comprar</button>
+        </div> 
+
+        <!--BARRA LATERAL MAS VENDIDOS-->
+        <aside class="cont-mas-vendidos">
+            <div class="item-mas-vendidos-title"> 
+                <h2>MAS VENDIDOS</h2>
             </div>
-        </div>
+
+            <!--Item 1-->
+            <div class=”item-mas-vendidos”> 
+                <img src="img/productos/absolut-vodka.png" alt="Producto: vodka absolut" class="img-producto-lateral">
+                <div>
+                    <p>$1.700</p>
+                    <p>Absolut Vodka Regular</p>
+                </div>
+                <div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+            <!--Item 2-->
+            <div class=”item-mas-vendidos”>
+                <img src="img/productos/vino-dante-robino.png" alt="Producto: vino dante robino" class="img-producto-lateral">
+                <div>
+                    <p>$1.258</p>
+                    <p>Vino Dante Robino Reserva Malbec</p>
+                </div>
+                <div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+            <!--Item 3-->
+            <div class=”item-mas-vendidos”> 
+                <img src="img/productos/kit-jenga-brahma.png" alt="Producto: kit jenga brahma" class="img-producto">
+                <div>
+                    <p>$2.210</p>
+                    <p>Kit Jenga Brahma</p>
+                </div>
+                <div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </aside>
+        
     </main>
-
-    <!--BARRA LATERAL MAS VENDIDOS-->
-    <aside class="cont-mas-vendidos">
-        <div class="item-mas-vendidos-title"> 
-            <h2>MAS VENDIDOS</h2>
-        </div>
-
-        <!--Item 1-->
-        <div class=”item-mas-vendidos”> 
-            <img src="img/productos/absolut-vodka.png" alt="Producto: vodka absolut">
-            <div>
-                <p>$1.700</p>
-                <p>Absolut Vodka Regular</p>
-            </div>
-            <div>
-                <button>Comprar</button>
-            </div>
-        </div>
-
-        <!--Item 2-->
-        <div class=”item-mas-vendidos”>
-            <img src="img/productos/cooler-corona.png" alt="Producto: cooler corona">
-            <div>
-                <p>$7.650</p>
-                <p>Cooler Corona 15L</p>
-            </div>
-            <div>
-                <button>Comprar</button>
-            </div>
-        </div>
-
-        <!--Item 3-->
-        <div class=”item-mas-vendidos”> 
-            <img src="img/productos/cerveza-darwin.png" alt="Producto: cerveza darwin">
-            <div>
-                <p>$3.906</p>
-                <p>Pack 16 Cervezas Darwin</p>
-            </div>
-            <div>
-                <button>Comprar</button>
-            </div>
-        </div>
-    </aside>
 
     <!--SECCIONES-->
     <div class="cont-secciones">
@@ -152,51 +171,53 @@
                 <h2>NOVEDADES</h2>
             </div>
 
-            <!--ITEM 1-->
-            <div class=”item-novedades”> 
-                <img src="img/productos/cerveza-quilmes-doble-malta.png" alt="Producto: cerveza quilmes doble malta">
-                <div>
-                    <p>$106</p>
-                    <p>Cerveza Quilmes Doble Malta Lata 410ml</p>
+            <div class="cont-productos">
+                <!--ITEM 1-->
+                <div class="item-novedades"> 
+                    <img src="img/productos/cerveza-quilmes-doble-malta.png" alt="Producto: cerveza quilmes doble malta" class="img-producto">
+                    <div>
+                        <p>$106</p>
+                        <p>Cerveza Quilmes Doble Malta Lata 410ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
 
-            <!--ITEM 2-->
-            <div class=”item-novedades”> 
-                <img src="img/productos/whisky-whyte.png" alt="Producto: whisky whyte">
-                <div>
-                    <p>$4.290</p>
-                    <p>Whisky Whyte & Mackay Special 700ml</p>
+                <!--ITEM 2-->
+                <div class="item-novedades"> 
+                    <img src="img/productos/whisky-whyte.png" alt="Producto: whisky whyte" class="img-producto">
+                    <div>
+                        <p>$4.290</p>
+                        <p>Whisky Whyte & Mackay Special 700ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
 
-            <!--ITEM 3-->
-            <div class=”item-novedades”> 
-                <img src="img/productos/mikes_lata.png" alt="Producto: Mike's Limonada">
-                <div>
-                    <p>$130</p>
-                    <p>Mike's Limonada+Vodka Lata 355ml</p>
+                <!--ITEM 3-->
+                <div class="item-novedades"> 
+                    <img src="img/productos/mikes_lata.png" alt="Producto: Mike's Limonada" class="img-producto">
+                    <div>
+                        <p>$130</p>
+                        <p>Mike's Limonada+Vodka Lata 355ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
 
-            <!--ITEM 4-->
-            <div class=”item-novedades”> 
-                <img src="img/productos/cerveza-darwin-pacifica.png" alt="Producto: cerveza darwin pacifica">
-                <div>
-                    <p>$280</p>
-                    <p>Cerveza Darwin Pacifica American Pilsen Lata 473ml</p>
-                </div>
-                <div>
-                    <button>Comprar</button>
+                <!--ITEM 4-->
+                <div class="item-novedades"> 
+                    <img src="img/productos/cerveza-darwin-pacifica.png" alt="Producto: cerveza darwin pacifica" class="img-producto">
+                    <div>
+                        <p>$280</p>
+                        <p>Cerveza Darwin Pacifica American Pilsen Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -207,51 +228,54 @@
                 <h2>CERVEZAS</h2>
             </div>
 
-            <!--ITEM 1-->
-            <div class=”item-cervezas”> 
-                <img src="img/productos/cerveza-andes-ipa-roja.png" alt="Producto: cerveza andes roja">
-                <div>
-                    <p>$156</p>
-                    <p>Cerveza Andes Origen IPA Roja Lata 473ml</p>
-                </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
+            <div class="cont-productos">
 
-            <!--ITEM 2-->
-            <div class=”item-cervezas”> 
-                <img src="img/productos/cerveza-temple-demon.png" alt="Producto: Cerveza Temple Demon Honey">
-                <div>
-                    <p>$300</p>
-                    <p>Cerveza Temple Demon Honey Lata 473ml</p>
+                <!--ITEM 1-->
+                <div class=”item-cervezas”> 
+                    <img src="img/productos/cerveza-andes-ipa-roja.png" alt="Producto: Cerveza Temple Demon Honey" class="img-producto">
+                    <div>
+                        <p>$156</p>
+                        <p>Cerveza Andes Origen IPA Roja Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
 
-            <!--ITEM 3-->
-            <div class=”item-cervezas”> 
-                <img src="img/productos/cerveza-bierhaus.png" alt="Producto: Cerveza BierHaus">
-                <div>
-                    <p>$320</p>
-                    <p>Cerveza BierHaus Neipa Lata 473ml</p>
+                <!--ITEM 2-->
+                <div class=”item-cervezas”> 
+                    <img src="img/productos/cerveza-temple-demon.png" alt="Producto: Cerveza Temple Demon Honey" class="img-producto">
+                    <div>
+                        <p>$300</p>
+                        <p>Cerveza Temple Demon Honey Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
-                </div>
-            </div>
 
-            <!--ITEM 4-->
-            <div class=”item-cervezas”> 
-                <img src="img/productos/cerveza-ocaso.png" alt="Producto: Cerveza Ocaso">
-                <div>
-                    <p>$265</p>
-                    <p>Cerveza Ocaso Summer Lager Lata 473ml</p>
+                <!--ITEM 3-->
+                <div class=”item-cervezas”> 
+                    <img src="img/productos/cerveza-bierhaus.png" alt="Producto: Cerveza BierHaus" class="img-producto">
+                    <div>
+                        <p>$320</p>
+                        <p>Cerveza BierHaus Neipa Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
-                <div>
-                    <button>Comprar</button>
+
+                <!--ITEM 4-->
+                <div class=”item-cervezas”> 
+                    <img src="img/productos/cerveza-ocaso.png" alt="Producto: Cerveza Ocaso" class="img-producto">
+                    <div>
+                        <p>$265</p>
+                        <p>Cerveza Ocaso Summer Lager Lata 473ml</p>
+                    </div>
+                    <div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -262,9 +286,10 @@
                 <h2>ACCESORIOS</h2>
             </div>
 
+            <div class="cont-productos">
             <!--ITEM 1-->
             <div class=”item-accesorios”> 
-                <img src="img/productos/frapera-corona.png" alt="Producto: frapera corona">
+                <img src="img/productos/frapera-corona.png" alt="Producto: frapera corona" class="img-producto">
                 <div>
                     <p>$2.240</p>
                     <p>Pack Frapera y Beermat Corona</p>
@@ -276,7 +301,7 @@
 
             <!--ITEM 2-->
             <div class=”item-accesorios”> 
-                <img src="img/productos/kit-jenga-brahma.png" alt="Producto: kit jenga brahma">
+                <img src="img/productos/kit-jenga-brahma.png" alt="Producto: kit jenga brahma" class="img-producto">
                 <div>
                     <p>$2.210</p>
                     <p>Kit Jenga Brahma</p>
@@ -288,7 +313,7 @@
 
             <!--ITEM 3-->
             <div class=”item-accesorios”> 
-                <img src="img/productos/pack-bar-quilmes.png" alt="Producto: pack bar quilmes">
+                <img src="img/productos/pack-bar-quilmes.png" alt="Producto: pack bar quilmes" class="img-producto">
                 <div>
                     <p>$2.800</p>
                     <p>Pack Bar Quilmes</p>
@@ -300,7 +325,7 @@
 
             <!--ITEM 4-->
             <div class=”item-accesorios”> 
-                <img src="img/productos/cerveza-bud-messi-vaso.png" alt="Producto: cerveza bud messi vaso">
+                <img src="img/productos/cerveza-bud-messi-vaso.png" alt="Producto: cerveza bud messi vaso" class="img-producto">
                 <div>
                     <p>$1.714</p>
                     <p>Pack Bud Messi Edición Limitada</p>
@@ -309,6 +334,7 @@
                     <button>Comprar</button>
                 </div>
             </div>
+        </div>
         </section>
     </div>  
     
@@ -321,34 +347,34 @@
     <footer class="cont-footer">    <!--Podria tener una imagen de fondo-->
 
         <!--LOGO-->
-        <img src="img/logos/logo-con-nombre.png" alt="logo de beer society">
+        <img src="img/logos/logo-con-nombre.png" alt="logo de beer society" >
 
-        <!--CONTACTO-->
-        <div class="cont-contacto">
-            <h2>Contacto</h2>
-            <div>
-                <i class="fas fa-phone-alt"></i>
-                <p>+54 9 291 123-4567</p>
+        <div class="cont-info-footer">
+            <!--CONTACTO-->
+            <div class="cont-contacto">
+                <h2>Contacto</h2>
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+54 9 291 123-4567</p>
+                </div>
+                <div>
+                    <i class="fas fa-paper-plane"></i>
+                    <p>contacto@beersociety.com</p>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Alsina Centro, B8000 Bahía Blanca, Provincia de Buenos Aires</p>
+                </div>
             </div>
-            <div>
-                <i class="fas fa-paper-plane"></i>
-                <p>contacto@beersociety.com</p>
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt"></i>
-                <p>Alsina Centro, B8000 Bahía Blanca, Provincia de Buenos Aires</p>
+
+            <!--REDES SOCIALES-->
+            <div class="cont-redes">
+                <h2>Seguinos</h2>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square iconos"></i></a>  
+                <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram iconos"></i></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square iconos"></i></a>
             </div>
         </div>
-
-        <!--REDES SOCIALES-->
-        <div class="cont-redes">
-            <h2>Seguinos</h2>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square iconos"></i></a>  
-            <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram iconos"></i></a>
-            <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square iconos"></i></a>
-            <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp iconos"></i></a>
-        </div>
-
         <!--DESARROLLADORES-->
         <div>Tatiana Gutiérrez © Todos los derechos reservados</div>
     </footer>
