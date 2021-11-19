@@ -1,12 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
 /* Header */
+.cont-header{
+    background-color: #abc8d3;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30%;
+}
+
+.logo{
+    padding-left: 55px;
+    height: 155px;
+}
+
+h1{
+    font-family: 'Pirata One';
+    font-size: 50px;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 27px;
+    padding: 3px;
+}
+
+/* Navegacion */
+    /* Contenedor */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #d6e1df;
+    margin-bottom: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 13px 20px;
+}
 
 
 /* Main */
-
     /* Contenedor */
-.cont-main{}
+.cont-main{
+    display: flex;
+    flex-grow: 1;
+}
 
-    /* Plantilla */
-.item-main{}
-.item-main-title{}
-.item-main button{}
+    /* Barra lateral marcas destacadas */
+.cont-marcas{
+    padding-left: 46px;
+}
+.img-marcas{
+    height: 75px;
+}
+
+.item-marca-title{
+    max-inline-size: fit-content;
+}
+
+    /* Ofertas */
+.cont-ofertas{
+    margin-left: 220px;
+}
+
+.item-ofertas-title{
+    background-color: rgb(236, 236, 140);
+    width: fit-content;
+}
+
+.cont-productos-centro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-producto{
+    height: 300px;
+}
+
+.nombre-producto{
+    max-inline-size: 50%;
+}
+
+    /* Tarjetas productos */
+.info-producto{
+    text-align: center;
+}
+
+.precio-anterior{
+    display: inline;
+    color: #ABAAAA;
+    text-decoration-line: line-through;
+}
+
+.descuento{
+    display: inline;
+    color: #D80000;
+}
+
+    /* Barra lateral mas vendidos */
+.img-producto-lateral{
+    height: 206px;
+
+}
+
+.cont-mas-vendidos{
+    margin: 40px 40px 0px 40px;
+}
+
