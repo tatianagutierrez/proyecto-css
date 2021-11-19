@@ -8,6 +8,10 @@ body{
     background-color: #f0f0f0;
 }
 
+p{
+    text-align: center;
+}
+
 /* Header */
 .cont-header{
     background-color: #abc8d3;
@@ -60,38 +64,58 @@ nav a{
 .cont-marcas{
     padding-left: 46px;
 }
+
+.item-marca{
+    margin-bottom: 46px !important;
+}
+
 .img-marcas{
-    height: 75px;
+    height: 92px;
+    margin: 13px 13px 0px 13px;
 }
 
 .item-marca-title{
     max-inline-size: fit-content;
+    margin-bottom: 35px;
 }
 
     /* Ofertas */
 .cont-ofertas{
-    margin-left: 220px;
 }
 
 .item-ofertas-title{
     background-color: rgb(236, 236, 140);
     width: fit-content;
+    margin-left: 10%;
 }
 
 .cont-productos-centro{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 61px;
+    justify-content: center;
 }
 
 .img-producto{
     height: 300px;
+    margin: 0 auto;
 }
 
 .nombre-producto{
-    max-inline-size: 50%;
+    max-inline-size: 92%;
 }
 
     /* Tarjetas productos */
+.tarjeta-produto, .tarjeta-marca{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    margin: 33px
+}
+
 .info-producto{
     text-align: center;
 }
@@ -107,13 +131,50 @@ nav a{
     color: #D80000;
 }
 
-    /* Barra lateral mas vendidos */
-.img-producto-lateral{
-    height: 206px;
-
+button {
+    background-color: #2183a2;
+    text-align: center;
+    border: 0px;
+    padding: 15px;
+    font-size: 23px;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
 }
+
+    /* Publicidad */
+.publicidad-horizontal {
+    height: 124px;
+    margin-top: 40px;
+}
+
+    /* Barra lateral mas vendidos */
 
 .cont-mas-vendidos{
     margin: 40px 40px 0px 40px;
+    }
+
+.tarjeta-lateral{
+    width: 213px;
+}
+    
+.img-producto-lateral{
+    height: 250px;
 }
 
+
+
+/* Secciones */
+.cont-secciones {
+    margin-left: 70px;
+}
+
+.cont-productos-secciones{
+    display: flex;
+}
+
+.item-novedades, .item-cervezas, .item-accesorios {
+    background-color: white;
+    margin: 12px;
+}
